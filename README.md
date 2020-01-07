@@ -42,7 +42,7 @@ func (r *Reader) Read(p []byte) (n int, err error) {
 Implement struct of struct/interface with given interface and given name
 
 ```
-:GoImpl io.Reader bar
+:GoImpl io.Reader Bar
 ```
 
 ```go
