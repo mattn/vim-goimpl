@@ -1,4 +1,5 @@
 function! s:goimpl(...)
+  noau update
   let l:dir = expand('%:p:h')
   if !empty(a:000)
     let l:word = a:000[0]
